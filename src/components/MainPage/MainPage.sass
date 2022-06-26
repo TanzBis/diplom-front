@@ -1,0 +1,33 @@
+
+.container
+  color: #58a3fa
+  display: flex
+
+.greet
+  width: 350px
+  margin-top: 200px
+  margin-left: 10px
+.img
+  margin-top: 50px
+  margin-left: 30px
+  object-fit: cover
+  width: 480px
+  height: 420px
+
+@media (max-width: 750px)
+  .img
+    width: 360px
+    margin-left: 0
+  .greet
+    font-size: 20px
+    margin-top: 280px
+
+@media (max-width: 528px)
+  .img
+    margin-top: 0
+
+  .greet
+    margin-top: 30px
+
+  .container
+    flex-direction: column-reverse
